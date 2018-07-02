@@ -31,6 +31,3 @@ var chocolateBars = [
 
 var cities = ["New York", "San Francisco"]
  
-
-["Philadelphia", ...cities]
-console.log(cities)
