@@ -29,7 +29,7 @@ var chocolateBars = [
   "skittles"
 ];
  
-
+// `${array}[${element}]`
 
 function addElementToBeginningOfArray(array, element) {
   return ;
