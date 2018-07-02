@@ -43,6 +43,6 @@ function addElementToEndOfArray(chocolateBars, element) {
   return [...chocolateBars, `${element}`];
 }
 
-function destructivelyAddElementToEndOfArray(array, element) {
-  return `${array}.push("${element}")`;
+function destructivelyAddElementToEndOfArray(chocolateBars, element) {
+  return chocolateBars.push(`${element}`);
 }
