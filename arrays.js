@@ -50,5 +50,3 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element) {
 function accessElementInArray() {
   
 }
-
-function 
