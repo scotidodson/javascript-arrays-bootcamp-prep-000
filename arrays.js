@@ -36,7 +36,8 @@ function addElementToBeginningOfArray(chocolateBars, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element) {
-  return chocolateBars.unshift(`${element}`);
+  chocolateBars.unshift(`${element}`);
+  return chocolateBars;
 }
 
 function addElementToEndOfArray(chocolateBars, element) {
@@ -44,7 +45,8 @@ function addElementToEndOfArray(chocolateBars, element) {
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, element) {
-  return chocolateBars.push(`${element}`);
+  chocolateBars.push(`${element}`);
+  return chocolateBars;
 }
 
 function accessElementInArray() {
