@@ -28,13 +28,11 @@ var chocolateBars = [
   "kitkat",
   "skittles"
 ];
-
-var chocolateBarChanges = foo;
  
 // `${array}[${element}]`
 
-function addElementToBeginningOfArray(foo, element) {
-  return [chocolateBarChanges, ...chocolateBars];
+function addElementToBeginningOfArray(array, element) {
+  return [`${element}, ...${array}`];
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
