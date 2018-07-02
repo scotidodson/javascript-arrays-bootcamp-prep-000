@@ -29,6 +29,6 @@ var chocolateBars = [
   "skittles"
 ];
  
-function addElementToEndOfArray(array, element){
-  return 
+function addElementToEndOfArray(array, element) {
+  return `${array}.push("${element}")`;
 }
