@@ -33,6 +33,6 @@ function addElementToEndOfArray(array, element) {
   return `${array}.push("${element}")`;
 }
 
-function addElementToEndOfArray(array, element) {
+function destructivelyAddElementToEndOfArray(array, element) {
   return `${array}.unshift("${element}")`;
 }
