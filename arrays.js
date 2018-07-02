@@ -31,8 +31,8 @@ var chocolateBars = [
  
 // `${array}[${element}]`
 
-function addElementToBeginningOfArray(array, element) {
-  return [`${element}, ...${array}`];
+function addElementToBeginningOfArray(chocolateBars, element) {
+  return [`${element}`, ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
