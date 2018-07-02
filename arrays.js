@@ -36,8 +36,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  `${array}`.unshift(`${element}`);
-  return console.log(`${array}`)
+  return `${array}`.unshift(`${element}`);
 }
 
 function addElementToEndOfArray(array, element) {
