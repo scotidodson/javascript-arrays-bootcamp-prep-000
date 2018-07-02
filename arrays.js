@@ -34,5 +34,5 @@ function addElementToEndOfArray(array, element) {
 }
 
 function addElementToEndOfArray(array, element) {
-  return `${array}.push("${element}")`;
+  return `${array}.unshift("${element}")`;
 }
