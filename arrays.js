@@ -40,8 +40,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element) {
   return chocolateBars;
 }
 
-function addElementToEndOfArray(chocolateBars, element) {
-  return [...chocolateBars, `${element}`];
+function addElementToEndOfArray(chocolateBars, index) {
+  return [...chocolateBars, `${index}`];
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, element) {
