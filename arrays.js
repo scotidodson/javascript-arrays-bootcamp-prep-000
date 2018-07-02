@@ -29,6 +29,12 @@ var chocolateBars = [
   "skittles"
 ];
  
+
+
+function addElementToBeginningOfArray(array, element) {
+  return `${array}.unshift("${element}")`;
+}
+
 function addElementToEndOfArray(array, element) {
   return `${array}.push("${element}")`;
 }
@@ -36,8 +42,3 @@ function addElementToEndOfArray(array, element) {
 function destructivelyAddElementToEndOfArray(array, element) {
   return `${array}[${element}]`;
 }
-
-function addElementToBeginningOfArray(array, element) {
-  return `${array}.unshift("${element}")`;
-}
-
