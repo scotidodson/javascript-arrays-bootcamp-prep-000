@@ -32,3 +32,7 @@ var chocolateBars = [
 function addElementToEndOfArray(array, element) {
   return `${array}.push("${element}")`;
 }
+
+function addElementToEndOfArray(array, element) {
+  return `${array}.push("${element}")`;
+}
